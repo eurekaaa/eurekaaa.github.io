@@ -5,7 +5,7 @@ date:   2016-1-2 13:01:00 +0900
 categories: jekyll update
 ---
 
-.
+quick sort
 
 {% highlight javascript %}
 

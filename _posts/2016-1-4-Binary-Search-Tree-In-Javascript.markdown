@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Binary Search Tree In Javascript"
-date:   2016-1-4 11:00:00 +0900
+date:   2016-1-4 11:15:00 +0900
 categories: jekyll update
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Quick Sort In Javascript"
-date:   2016-1-2 13:01:00 +0900
+title:  "Heap Sort In Javascript"
+date:   2016-1-4 11:00:00 +0900
 categories: jekyll update
 ---
 

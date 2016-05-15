@@ -19,6 +19,6 @@ github_username: eurekaaa
 
 # Build settings
 markdown: kramdown
-paginate: 3
+paginate: 5
 paginate_path: "/blog/page:num/"
 gems: [jekyll-paginate]

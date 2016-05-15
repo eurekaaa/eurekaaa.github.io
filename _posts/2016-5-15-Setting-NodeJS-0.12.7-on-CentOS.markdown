@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting NodeJS(0.12.7) on CenterOS"
+title:  "How to set nodejs(01.12.7) on centos"
 date:   2016-5-15
 ---
 

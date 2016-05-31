@@ -8,7 +8,7 @@ date:   2016-5-31
 이는 리눅스 서버에 폰트가 설치되어 있지 않아서 발생하는 현상이다.
 
 한글이 설치 되지 않은 경우 아래와 같이 폰트가 깨진다.
-<img src='http://localhost:4000/assets/imgs/capture1.png'>
+<img src='{{site.url}}/assets/imgs/capture1.png'>
 <br><br>
 <h1>해결 방법</h1>
 '/usr/share/fonts' 디렉토리에 설치하고자 하는 폰트를 복사한 후 아래 명령어를 실행한다.<br>
@@ -30,4 +30,4 @@ fc-cache: succeeded
 {% endhighlight %}
 
 위와 같이 폰트를 추가하고 나면 정상적으로 캡쳐가된다.
-<img src='http://localhost:4000/assets/imgs/capture2.png'>
+<img src='{{site.url}}/assets/imgs/capture2.png'>

@@ -4,7 +4,7 @@ title:  "phantomjs에서 한글 깨짐 현상 해결 방법"
 date:   2016-5-31
 ---
 
-리눅스에서 phantomjs 또는 casper 또는 spooky를 사용하여 웹페이지를 capture할 때 한글이 깨지는 현상이 있다.
+리눅스에서 <a href="http://phantomjs.org/">PhantomJS</a>, <a href="https://github.com/amir20/phantomjs-node">Phantom(NodeJS Module)</a>, <a href="http://casperjs.org/">CasperJS</a> 또는 <a href="https://github.com/SpookyJS/SpookyJS">SpookyJS</a>를 사용하여 웹페이지를 capture할 때 한글이 깨지는 현상이 있다.
 이는 리눅스 서버에 폰트가 설치되어 있지 않아서 발생하는 현상이다.
 
 한글이 설치 되지 않은 경우 아래와 같이 폰트가 깨진다.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "phantomjs에서 한글 깨짐 현상 해결 방법"
+title:  "PhantomJS에서 한글 깨짐 현상 해결 방법"
 date:   2016-5-31
 ---
 

@@ -31,3 +31,35 @@ fc-cache: succeeded
 
 위와 같이 폰트를 추가하고 나면 정상적으로 캡쳐가된다.
 <img src='{{site.url}}/assets/imgs/capture2.png'>
+<br><br>
+<h1>참고</h1>
+<ol>
+	<li><a href="https://productbuilder.wordpress.com/2014/02/23/screen-scraping-with-spookyjs/">SpookyJS로 웹페이지 capture 하기</a></li>
+	<li>
+		Spooky 객체에서 외부 변수를 접근할 수 없는데요. 접근을 위해서는 아래와 같은 방법으로 접근해야 한다.(<a href="https://github.com/SpookyJS/SpookyJS/wiki/Introduction">Document</a>)
+{% highlight javascript %}
+var x = 'spooky';
+var y = 'kooky';
+
+// spooky.then accepts a function tuple
+spooky.then([{
+  x: x
+}, function () {
+  console.log('x:', x); // -> x: spooky
+}]);
+
+// spooky.thenEvaluate accepts both a function tuple and an argument hash
+spooky.thenEvaluate([{
+  y: y
+}, function (x) {
+  console.log('x:', x); // -> x: spooky
+  console.log('y:', y); // -> y: kooky
+}], {
+  x: x
+});
+{% endhighlight%}
+	</li>
+</ol>
+
+
+

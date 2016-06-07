@@ -22,6 +22,7 @@ ffmpeg과 관련된 소스를 다운로드 받을 폴더를 생성한다.
 $ mkdir ~/ffmpeg_sources
 {% endhighlight %}
 </li>
+
 <li>
 Yasm 설치
 {% highlight bash %}

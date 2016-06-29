@@ -9,9 +9,6 @@
 title: Welcome to eurekaaa world!!
 email: kimkeunsooo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://eurekaaa.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
@@ -19,6 +16,6 @@ github_username: eurekaaa
 
 # Build settings
 markdown: kramdown
-paginate: 5
+paginate: 10
 paginate_path: "/blog/page:num/"
 gems: [jekyll-paginate]

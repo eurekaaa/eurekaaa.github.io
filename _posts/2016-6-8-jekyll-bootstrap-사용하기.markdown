@@ -29,6 +29,7 @@ git 프로젝트의 root directory에 .gitmodules파일을 추가하고 추가�
 </li>
 <li>
 <b>github에 SSH key 등록하기</b><br>
+git에 SSH key를 등록하여 사용할 수 있다.
 <ol>
   <li>
     ssh 공용키 생성<br>

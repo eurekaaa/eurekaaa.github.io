@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "How to set nodejs(0.12.7) on centos"
 date:   2016-5-15
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Heap Sort In Javascript"
 date:   2016-1-4 11:00:00 +0900
 categories: jekyll update

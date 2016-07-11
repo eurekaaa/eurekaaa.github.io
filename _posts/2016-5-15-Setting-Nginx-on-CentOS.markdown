@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "How to set nginx on centos and work with nodejs"
 date:   2016-5-15 16:40:00 +0900
 ---

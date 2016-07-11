@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Git Page에 Jekyll Bootstrap 적용 시 참고사항"
 date:   2016-6-8
 ---

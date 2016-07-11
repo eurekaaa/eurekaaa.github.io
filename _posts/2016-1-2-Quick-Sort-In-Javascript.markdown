@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Quick Sort In Javascript"
 date:   2016-1-2 13:01:00 +0900
 categories: jekyll update

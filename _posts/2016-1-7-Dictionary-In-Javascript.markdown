@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Dictionary In Javascript"
 date:   2016-1-7 23:37:00 +0900
 categories: jekyll update

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Jekyll에 Pagenation 추가 하기"
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "How to set ffmpeg on centos"
 date:   2016-6-3
 ---

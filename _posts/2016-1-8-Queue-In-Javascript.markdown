@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Queue In Javascript"
 date:   2016-1-8 19:02:00 +0900
 categories: jekyll update

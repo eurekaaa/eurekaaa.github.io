@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title:  "Jekyll에 Pagenation 추가 하기"
+date: 2016-2-24
 ---
 
 Jekyll 3.0부터는 pagenate를 제공한다.

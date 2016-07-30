@@ -8,7 +8,7 @@ date:   2016-7-13
 <p>AngularJS에서 모듈 사이에 데이터를 전달 하는 방법에 대해 알아본다.</p>
 
 쇼핑몰에서 결제 시스템에 사용자 정보를 넘기는 것을 예로 작성해야겠다.<br>
-우선 아래와 같이 'mall'이라는 AngularJS Application을 작성한다.
+우선 아래와 같이 `mall` 이라는 AngularJS Application을 작성한다.
 
 application.js
 
@@ -56,11 +56,7 @@ index.html
 <script src="user.js" type="text/javascript"></script>
 </body>
 </html>
-
-
-
 ```
-
 여기까지 (초간단)결제시스템 모듈이 준비되었다.
 이제 사용자정보를 관리하는 user 모듈을 만들어 결제시스템에서 사용자 정보를 가져오도록 하자.<br>
 
@@ -106,7 +102,5 @@ paymentModule.controller('PaymentController', ['$scope', 'UserInfo', function($s
 		return UserInfo.info;
 	};
 }]);
-
-
 ```
 

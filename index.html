@@ -23,15 +23,14 @@ layout: default
      -->
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
-    <h1>
-        <a class="post-link" href="{{ post.url }}">
+    <span class="post-meta">
+        {{ post.date | date: "%B %-d, %Y" }}
+    </span>
+    <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title }}
         </a>
-    </h1>
-    <div class="content">
-        <!-- {{ post.content }} -->
-        <!-- <span>{{ post.content | truncate: 60 }}</span> -->
-    </div>
+    </h2>
     {% endfor %}
     <!-- Pagination links -->
     <!--

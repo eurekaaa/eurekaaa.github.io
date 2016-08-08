@@ -88,7 +88,7 @@ date:   2016-8-8
                 },
                 controller: 'UserController as ctrl',
                 // controllerAs: 'ctrl',
-                template: '<div>{{ctrl.name}}</div>',
+                template: '<div>{{'{{ctrl.name'}}}}</div>',
             };
         });
     </script>
